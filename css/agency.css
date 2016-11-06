@@ -652,3 +652,7 @@ body {
   background: #003161; }
   #support h1, #support h2, #support h3, #support h4, #support p {
     color: white; }
+
+.person-name {
+  font-size: 16px;
+  text-transform: none; }
