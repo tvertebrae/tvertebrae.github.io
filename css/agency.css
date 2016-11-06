@@ -3,17 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-.fixed-action-btn {
-  position: fixed;
-  right: 23px;
-  bottom: 23px;
-  padding-top: 15px;
-  margin-bottom: 0;
-  z-index: 998; }
-
-.logo {
-  max-height: 75px; }
-
 body {
   overflow-x: hidden;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -645,3 +634,21 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #2ecc71; }
+
+.fixed-action-btn {
+  position: fixed;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 998;
+  bottom: 48px;
+  right: 48px;
+  width: 120px;
+  height: 120px; }
+
+.logo {
+  max-height: 75px; }
+
+#support {
+  background: #003161; }
+  #support h1, #support h2, #support h3, #support h4, #support p {
+    color: white; }

@@ -3,19 +3,6 @@
 
 // Global Components
 
-.fixed-action-btn {
-  position: fixed;
-  right: 23px;
-  bottom: 23px;
-  padding-top: 15px;
-  margin-bottom: 0;
-  z-index: 998;
-}
-
-.logo {
-  max-height: 75px;
-}
-
 body {
   overflow-x: hidden;
   @include body-font;
@@ -743,4 +730,26 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: $theme-primary;
+}
+
+.fixed-action-btn {
+  position: fixed;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 998;
+  bottom: 48px;
+  right: 48px;
+  width: 120px;
+  height: 120px;
+}
+
+.logo {
+  max-height: 75px;
+}
+
+#support {
+  background: $theme-secondary;
+  h1, h2, h3, h4, p {
+    color: white;
+  }
 }
