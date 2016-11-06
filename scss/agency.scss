@@ -189,7 +189,7 @@ header {
     .intro-subheading {
       @include heading-font;
       font-weight: 700;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 34px;
       margin-bottom: 25px;
     }
@@ -217,7 +217,7 @@ header {
       .intro-subheading {
         @include heading-font;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 34px;
         margin-bottom: 25px;
         text-transform: none;
@@ -236,12 +236,15 @@ section {
     margin-bottom: 15px;
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 20px;
     @include body-font;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px;
+  }
+  p.section-subheading{
+    font-size: 16px;
   }
 }
 
@@ -618,7 +621,7 @@ ul.social-buttons {
   li {
     a {
       display: block;
-      background-color: $gray-darker;
+      background-color: $theme-secondary;
       height: 40px;
       width: 40px;
       border-radius: 100%;
