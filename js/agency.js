@@ -25,11 +25,11 @@
 
 
 })(jQuery); // End of use strict
-
-$(document).scroll(function() {
-    if($(window).scrollTop() > 0) {
-        $("#mainNav").addClass("navbar-shadow");
-    } else {
-        $("#mainNav").removeClass("navbar-shadow");
-    }
-});
+//
+// $(document).scroll(function() {
+//     if($(window).scrollTop() > 0) {
+//         $("#mainNav").addClass("navbar-shadow");
+//     } else {
+//         $("#mainNav").removeClass("navbar-shadow");
+//     }
+// });

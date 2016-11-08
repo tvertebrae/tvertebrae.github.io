@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-shadow {
-  box-shadow: 0 0 35px 0 rgba(0, 0, 0, .09);
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, .3);
 }
 
 .navbar-custom {
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width: 768px) {
   .navbar-custom {
     background-color: white;
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
